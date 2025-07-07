@@ -1,0 +1,258 @@
+{
+  "name": "Trishna Roy",
+  "image_path": "img/default-image.png",
+  "contact": {
+    "email": "trish0991@yahoo.in",
+    "phone": "8961406664",
+    "location": "Kolkata, West Bengal, India"
+  },
+  "summary": "I’m a Python developer with 1 year of professional experience, and hands-on expertise in building REST APIs, Django applications, SQL databases, and automation scripts. Passionate about continuous learning and sharing my work on GitHub. As a self-learner, I’ve built and shared multiple projects on GitHub, and I’m excited to grow in a professional environment where I can contribute, learn, and build meaningful solutions.",
+  "social_links": [
+
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/trishna-r-06026914a",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/trish0912",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "TCS",
+      "position": "Process Associate",
+      "start_date": "24/10/2018",
+      "end_date": "18/03/2024",
+      "highlights": [
+        "Managed information processes and customer interactions via email/chat for Iberdrola, ensuring accurate database updates and efficient query resolution.",
+        "Supported IT operations by resolving incidents, applying security patches, and maintaining documentation for the Nest (UK Pension) project.",
+        "Developed and maintained Python scripts to improve internal tools at AstraZeneca, increasing data processing efficiency by 15%."
+      ]
+    },
+    {
+      "company": "Wipro",
+      "position": "Senior Associate",
+      "start_date": "01/07/2014",
+      "end_date": "01/08/2016",
+      "highlights": [
+        "Troubleshoot customer issues related to TV, broadband, and telephone services and provide resolutions via call",
+        "Acted as Customer Complaints Manager and prepared resolution reports",
+        "Stored and organized the complaint data, and analyzed it to identify patterns, trends, and areas for improvement using the CRM system and other tools. Preparing reports for senior management. "
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title":"Django Content Management App",
+      "summary": "A Django-based content management system that allows users to create, edit, and delete posts with user authentication.",
+      "url": "https://trishna15.pythonanywhere.com/",
+      "github": "https://github.com/trish0912/Django_Content_Mgmnt_App",
+      "highlights": [
+      "Deployed using PythonAnywhere with a fully functional live demo",
+      "Implemented CRUD functionality with Django views, templates, and models",
+      "Integrated user authentication for secure login, registration, and content access"
+    ],
+      "images": [
+        {
+          "img_path": "portfolio_media/home_page.png",
+          "caption": "Home page"
+        },
+        {
+          "img_path": "portfolio_media/login.png",
+          "caption": "Login"
+        },
+        {
+          "img_path": "portfolio_media/register.png",
+          "caption": "Register"
+        },
+        {
+          "img_path": "portfolio_media/reset_password.png",
+          "caption": "Reset Password"
+        },
+        {
+          "img_path": "portfolio_media/post_logged_in.png",
+          "caption": "After Login"
+        },
+        {
+          "img_path": "portfolio_media/public_topic.png",
+          "caption": "Public Topic"
+        },
+        {
+          "img_path": "portfolio_media/your_topic.png",
+          "caption": "Your Topic"
+        },
+        {
+          "img_path": "portfolio_media/create_topic.png",
+          "caption": "Create Topic"
+        },
+        {
+          "img_path": "portfolio_media/create_entry.png",
+          "caption": "Create Entry"
+        },
+                {
+          "img_path": "portfolio_media/topic_entries.png",
+          "caption": "Topic Entries"
+        },
+        {
+          "img_path": "portfolio_media/update_entry.png",
+          "caption": "Update Entry"
+        },
+        {
+          "img_path": "portfolio_media/read_more.png",
+          "caption": "Read More"
+        },
+        {
+          "img_path": "portfolio_media/delete.png",
+          "caption": "Delete"
+        },
+        {
+          "img_path": "portfolio_media/profile.png",
+          "caption": "Profile"
+        }
+      ]
+    },
+    {
+      "title": "Netflix Data Analysis",
+      "summary": "Exploratory Data Analysis on Netflix titles dataset from Kaggle using Python, Pandas, and Matplotlib to uncover content trends and insights.",
+      "url": "https://github.com/trish0912/Netflix_Data_Analysis",
+      "highlights": [
+      "Used the Netflix titles dataset from Kaggle for real-world data analysis",
+      "Cleaned and transformed raw data using Pandas for better insights",
+      "Created visualizations to explore content types, release trends, and top genres using Matplotlib and Seaborn",
+      "Conducted the analysis using Python scripts in VS Code, with clear code structure and inline comments for documentation."
+    ],
+      "images": [
+        {
+          "img_path": "portfolio_media/Figure_1.png",
+          "caption": "Figure 1"
+        },
+        {
+          "img_path": "portfolio_media/Figure_2.png",
+          "caption": "Figure 2"
+        },
+        {
+          "img_path": "portfolio_media/Figure_3.png",
+          "caption": "Figure 3"
+        },
+        {
+          "img_path": "portfolio_media/Figure_4.png",
+          "caption": "Figure 4"
+        }
+      ]
+    },
+    {
+      "title": "Daily Report Automation Bot",
+      "summary":"A Python automation script that generates and sends daily email reports by extracting and formatting data, reducing manual effort in reporting tasks.",
+      "url": "https://github.com/trish0912/Daily_Report_Bot",
+      "highlights":  [
+      "Sends personalized emails with both plain text and HTML content using smtplib",
+      "Uses OpenWeatherMap API to fetch real-time weather data",
+      "Retrieves top headlines using NewsAPI and formats them in the email",
+      "Each recipient receives a customized message with their own name and email",
+      "Supports sending file attachments (e.g., reports, images)",
+      "Automatically scheduled to run daily using the Python 'schedule' module"
+    ],
+      "images": [
+        {
+          "img_path": "portfolio_media/email.png",
+          "caption": "Email Screenshot"
+        }
+      ]
+    },
+    {
+      "title": "Flask JWT Expense Tracker API",
+      "summary": "A secure RESTful API built with Flask for tracking personal expenses, featuring user authentication, protected routes, and categorized expense management.",
+      "url": "https://github.com/trish0912/Flask-JWT-Expense-Tracker-API",
+      "highlights": [
+      "User registration and login with JWT-based authentication",
+      "Each user can only access and manage their own expenses",
+      "Implements full CRUD functionality for tracking expenses",
+      "Supports optional date and category fields for better organization",
+      "Uses SQLite for storage with environment-based configuration",
+      "Environment variable support using python-dotenv for secure config"
+    ]
+    
+    },
+    {
+      "title": "Flask Student Management API",
+      "summary":  "A Flask-based RESTful API for managing student records with full CRUD operations, PostgreSQL integration, and input validation.",
+      "url": "https://github.com/trish0912/flask-student-api",
+      "highlights": [
+      "Create, read, update, and delete student records using REST API endpoints",
+      "Validates email format using the email-validator library",
+      "Integrated with PostgreSQL using psycopg2 for robust data storage",
+      "Stores configuration using environment variables via .env file",
+      "Designed for simplicity, clarity, and reusability in small-scale CRUD projects"
+    ]
+
+    }
+  ],
+  "education": [
+    {
+      "institution": "Punjab Technical University",
+      "degree": [
+        "Basic Business Administration Specializing in Finance"
+      ],
+      "Division": "First",
+      "graduation_date": "01/01/2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, SQL",
+      "proficiency_label": "Intermediate"
+    },
+    {
+      "name": "Flask, Django",
+      "proficiency_label": "Intermediate"
+    },
+    {
+      "name": "Git, VS Code, Postman",
+      "proficiency_label": "Basic"
+    },
+    {
+      "name": "Web Scraping (BeautifulSoup, Requests)",
+      "proficiency_label": "Basic"
+    },
+    {
+      "name": "REST APIs (Flask, JSON, HTTP methods)",
+      "proficiency_label": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cooking, gardening, and continuous learning.",
+      "images": [
+        {
+          "img_path": "portfolio_media/cooking.jpg",
+          "caption": "Cooking"
+        },
+        {
+          "img_path": "portfolio_media/Gardening.jpg",
+          "caption": "Gardening"
+        },
+        {
+          "img_path": "portfolio_media/cl.png",
+          "caption": "Continuous Learning"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full Professional Proficiency"
+    },
+     {
+      "language": "Bengali",
+      "fluency": "Fluent / Native"
+    },
+     {
+      "language": "Hindi",
+      "fluency": "Fluent / Native"
+    }
+  ]  
+}
